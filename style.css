@@ -1,0 +1,256 @@
+body{
+
+    background-color: rgb(140, 221, 194);
+}
+
+
+
+
+
+h1:hover{
+border:5px solid black;
+color:rgb(31, 93, 228)
+}
+.title{
+    background-color: rgb(106, 236, 106);
+    text-align: center;
+    text-shadow:0cap;
+    justify-content:center;
+   text-decoration: double;
+}
+.apple{
+    background-color:aqua;
+    padding: left 2%;
+    text-align: left;
+}
+.a img{
+width:100px; 
+height:100px;
+}
+
+.ball{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.b img{
+width:100px; 
+height:100px;
+}.cat{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.c img{
+width:100px; 
+height:100px;
+}.dog{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.d img{
+width:100px; 
+height:100px;
+}.elephant{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.e img{
+width:100px; 
+height:100px;
+}.fish{
+    background-color:aqua;
+
+    text-align: left;
+}
+.f img{
+width:100px; 
+height:100px;
+}.goat{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.g img{
+width:100px; 
+height:100px;
+}.horse{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.h img{
+width:100px; 
+height:100px;
+}.icecream{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.i img{
+width:100px; 
+height:100px;
+}.jug{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.j img{
+width:100px; 
+height:100px;
+}.kite{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.k img{
+width:100px; 
+height:100px;
+}.lion{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.l img{
+width:100px; 
+height:100px;
+}.mango{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.m img{
+width:100px; 
+height:100px;
+}.nose{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.n img{
+width:100px; 
+height:100px;
+}.orange{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.o img{
+width:100px; 
+height:100px;
+}.piegeon{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.p img{
+width:100px; 
+height:100px;
+}.queen{
+    background-color:aqua;
+    text-align: left;
+}
+.q img{
+width:100px; 
+height:100px;
+}.rabbit{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.r img{
+width:100px; 
+height:100px;
+}.snake{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.s img{
+width:100px; 
+height:100px;
+}.tiger{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.t img{
+width:100px; 
+height:100px;
+}.umbrella{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.u img{
+width:100px; 
+height:100px;
+}.van{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.v img{
+width:100px; 
+height:100px;
+}.whale{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.w img{
+width:100px; 
+height:100px;
+}.xray{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.x img{
+width:100px; 
+height:100px;
+}.yacht{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.y img{
+width:100px; 
+height:100px;
+}.zombie{
+    background-color:aqua;
+    
+    text-align: left;
+}
+.z img{
+width:100px; 
+height:100px;
+}
+/*a:hover{
+   
+
+}*/
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .go-to-top:hover {
+    
+
+    color:rgb(255, 0, 0);
+    background-color:rgb(197, 197, 31) ;
+    box-shadow:10cap;
+
+
+  }
+
