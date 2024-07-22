@@ -1,65 +1,235 @@
-
-    table{
-        margin: auto;
-        width: 300px;
-        border-collapse: collapse;
-        border: 3px solid black ;
-     
-    }
-    th{
-        height: 30px;
-        text-align: right;
-        font-size: 40px;
-        font-weight: 400;
-        color: rgb(0, 0, 0);
+body {
+    margin: 0;
+   
+}
+.menu{
+    margin-top: 30px;
+}
+.navbar {
+    top: 0;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-
-    td{
-        text-align: center;
-        font-size: 30px;
-        font-weight: 300;
-        background-color:antiquewhite ;
-        
-    }
-    tr:nth-child(2){
-    background-color: grey;
-    }
-    
-    .hello{
-        background-color: yellowgreen;
-        color: white;
-    }
-    .hello:hover{
-    background-color:black;
-    color: white;
-    }
-    td:hover{
-        background-color:yellowgreen ;
-        color: white;
-    }
- 
-.first{
-border: 3px solid black; 
-background-color: rgba(143, 143, 41, 0.575) ;
+.logo {
+    display: flex;
+    /* padding-right: 350px; */
 }
-.second{
-    border: 3px solid black ; 
-    background-color:grey ;
-    }
-    .third{ border: 3px solid black ; 
-    }
-    .fourth{ border: 3px solid black ; 
-    }
-    .fifth{ border: 3px solid black ; 
-    }
-    .sixth{ border: 3px solid black ; 
-    }
-    h1{
-        text-align: center;
-    }
-    h1:hover{
-        border: 3px solid black; 
-        background-color: aquamarine;
-        box-shadow: 5px 5px 4px; 
-    }
+
+.logo img {
+    height: 45px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.logo sup {
+    font-size: 8px;
+}
+
+.search-bar {
+    margin: 5px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(216, 216, 216);
+    padding-left: 10px;
+    /* z-index: 1; */
+}
+
+.btn{
+    position: absolute;
+    padding: 13px 380px;
+
+}
+
+.side-icons {
+    display: flex;
+    align-items: center;
+}
+
+.side-icons i,
+img {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.side-icons img {
+    height: 33px;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.side-bar {
+    width: 20%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    width: 80%;
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    padding: 0 0 0 20px;
+    align-items: center;
+}
+
+.home i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.home h1 {
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.home:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.hr {
+    margin-top: 20px;
+    background-color: rgb(136, 136, 136);
+    height: 1px;
+    width: 220px;
+}
+
+.setting {
+    display: flex;
+    padding: 0 0 0 20px;
+    align-items: center;
+}
+
+.setting i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.setting h1 {
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.setting:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.Explore {
+    font-size: 17px;
+    padding: 5px 0 0 20px;
+}
+
+.Explore h1 {
+    font-size: 20px;
+}
+
+.trending {
+    display: flex;
+    padding: 0 0 0 20px;
+    align-items: center;
+}
+
+.trending i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.trending h1 {
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.trending:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+.category{
+    display: flex;
+    gap: 10px;
+}
+.all{
+    text-align: center;
+    height: 30px;
+    max-width: 150px;
+    min-width: 60px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+}
+.all p{
+    margin: 5px 15px 0px 15px;
+}
+
+.card-section{
+    display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    gap: 10px;
+}
+
+.card-img img{
+    height: 170px;
+    border-radius: 10px;
+}
+
+.YouTube-Profile img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-content{
+    display: flex;
+}
+.Card-Caption{
+    width: 250px;
+}
+.Card-Caption img{
+    height: 40px;
+    border-radius: 50%;
+}
+.Card-Caption h2{
+    font-size: 20px;
+}
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add a transition effect to the button */
+  .go-to-top:hover {
+    background-color:yellowgreen;
+    color: red;
+    box-shadow: 5px solid yellow;
+  }
+  
+  /* Add a smooth scrolling effect when clicking the button */
+  .go-to-top:active {
+    transform: translateY(-5px);
+  }
